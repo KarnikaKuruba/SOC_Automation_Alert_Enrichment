@@ -1,0 +1,25 @@
+[
+  {
+    "id": "A-1001",
+    "timestamp": "2025-10-10T09:12:00Z",
+    "src_ip": "192.0.2.101",
+    "dst_ip": "10.10.10.5",
+    "domain": "suspicious-example[.]com",
+    "alert_type": "phishing"
+  },
+  {
+    "id": "A-1002",
+    "timestamp": "2025-10-11T14:05:00Z",
+    "src_ip": "198.51.100.22",
+    "dst_ip": "10.10.10.8",
+    "domain": "benign-example.com",
+    "alert_type": "brute_force"
+  },
+  {
+    "id": "A-1003",
+    "timestamp": "2025-10-12T02:55:00Z",
+    "src_ip": "203.0.113.7",
+    "dst_ip": "10.10.10.9",
+    "alert_type": "c2_traffic"
+  }
+]
